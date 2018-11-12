@@ -17,6 +17,17 @@
     font-size: 50px;
     color: pink;
   }
+  button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: blue;
+    background-color: Red;
+  }
+  button:hover{
+    background-color: blue;
+    color: red;
+    transition: background-color .5s;
+  }
   </style>
 </head>
 <body>
@@ -29,6 +40,9 @@
 <div class="text">
   My name is Samo
 </div>
+<button>
+  Click ME
+</button>
 </body>
 <script>
 document.getElementsByClassName('header')[0].className = "animated bounce";
